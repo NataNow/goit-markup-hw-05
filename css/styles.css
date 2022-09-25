@@ -126,6 +126,7 @@ html {
 
 .contact-item {
   margin-right: 50px;
+  display: flex;
 }
 
 /*header*/
@@ -554,6 +555,9 @@ html {
 /* модалка*/
 
 .backdrop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   top: 0;
   left: 0;
@@ -567,9 +571,6 @@ html {
 }
 
 .model {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -583,6 +584,7 @@ html {
   outline: 4px solid rgba(0, 0, 0, 0.1);
 }
 .model-icon {
+  position: absolute;
   top: 8px;
   right: 8px;
 
