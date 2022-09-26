@@ -179,6 +179,9 @@ html {
   margin-right: 10px;
 }
 
+.contact-icons {
+  transition: all 250 ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .contact-link {
   display: flex;
   align-items: center;
