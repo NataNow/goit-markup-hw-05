@@ -718,7 +718,8 @@ html {
   overflow: hidden;
 }
 
-.item-link:hover .item-text {
+.item-link:hover,
+.item-link:focus .item-text {
   transform: translateY(0);
 }
 .item-text {
@@ -731,7 +732,7 @@ html {
   transform: translateY(101%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  padding: 24px 63px;
+  padding: 63px 24px;
   color: var(--primary-bg-color);
   border: none;
   background-color: rgba(33, 150, 243, 0.9);
